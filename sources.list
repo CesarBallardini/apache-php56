@@ -1,0 +1,12 @@
+# Debian 8.11 (in June 2018) was the final update for Debian 8. As stated in its announcement: https://lists.debian.org/debian-announce/2018/msg00002.html
+# the backports team provides backports for the current release, and stretch was released in June 2017.
+# no more maintenance of backports for jessie: https://lists.debian.org/debian-backports-announce/2018/07/msg00000.html
+# March 2019: The FTP masters team removed the jessie-updates and jessie-backports suite from the mirrors. https://lists.debian.org/debian-devel-announce/2019/03/msg00006.html
+# The current LTS version is Debian 8 "Jessie" and will be supported from 2018-06-17 to 2020-06-30
+# jessie y jessie-updates no reciben mas actualizaciones
+# Explicacion: https://www.lucas-nussbaum.net/blog/?p=947
+
+deb http://archive.debian.org/debian/ jessie                  main contrib non-free
+deb http://archive.debian.org/debian/ jessie-backports        main contrib non-free
+deb http://archive.debian.org/debian/ jessie-backports-sloppy main contrib non-free
+
