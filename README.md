@@ -15,4 +15,9 @@ time docker build  --build-arg https_proxy=$http_proxy --build-arg http_proxy=$h
 
 ```
 
+# Referencias
 
+* https://github.com/wnuken/apache-php56 desde este repo se hizo el fork. Gracias Brian Sanabria!
+* https://github.com/docker-library/php/blob/f016f5dc420e7d360f7381eb014ac6697e247e11/5.6/apache/Dockerfile debian:jessie es el base de php:5.6-apache
+
+ 
