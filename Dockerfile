@@ -13,6 +13,7 @@ RUN apt-get install -y --allow-downgrades --no-install-suggests \
 
 RUN apt-get install -y --allow-downgrades --no-install-suggests \
     libmemcached-dev libsasl2-dev libsasl2-2/jessie 
+# hasta aca OK
 
 RUN apt-get install -y --allow-downgrades --no-install-suggests \
     libc-client-dev libkrb5-dev libpq-dev libxml2-dev libxslt-dev  libxml2 libkrb5-dev
