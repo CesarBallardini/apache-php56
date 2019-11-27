@@ -29,6 +29,7 @@ docker images  --format="{{ .ID }}" \
 
 # envia la imagen al hub
 docker push ${IMAGE_NAME}:${TAG}
+docker push ${IMAGE_NAME}:latest
 
 
 ```
